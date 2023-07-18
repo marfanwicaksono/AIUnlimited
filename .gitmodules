@@ -1,6 +1,3 @@
 [submodule "ALPR_IndonesiaPlateNumber_ComputerVision"]
 	path = ALPR_IndonesiaPlateNumber_ComputerVision
 	url = git@github.com:img88/ALPR_IndonesiaPlateNumber_ComputerVision.git
-[submodule "live-object-detection"]
-	path = live-object-detection
-	url = git@github.com:alexsikorski/live-object-detection.git
