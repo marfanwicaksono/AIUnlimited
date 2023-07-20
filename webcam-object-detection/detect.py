@@ -2,13 +2,13 @@ import cv2
 import numpy as np
 
 # Load YOLO
-net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+net = cv2.dnn.readNet("yolov3-tiny.weights", "yolov3-tiny.cfg")
 classes = []
 with open("yolov3.txt", "r") as f:
     classes = [line.strip() for line in f.readlines()]
 
 # Set up webcam
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 # Define output layers and colors
 layer_names = net.getLayerNames()

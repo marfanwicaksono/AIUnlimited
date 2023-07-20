@@ -32,3 +32,11 @@ pip install SpeechRecognition pyaudio
 
 ### Train MNIST
 pip install tensorflow
+
+### Hand Gesture Detection
+pip install opencv-python mediapipe
+
+### Move Cursor
+pip install opencv-python
+pip install pyautogui
+
