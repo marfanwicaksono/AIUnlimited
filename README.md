@@ -16,3 +16,19 @@ pip install numpy
 pip install dlib
 
 download shape_predictor_68_face_landmarks.dat
+
+
+### YOLOv7 Object Detection
+pip install opencv-python
+pip install imread-from-url
+pip install onnxruntime-gpu
+pip install cap-from-youtube
+
+### Face Recognition
+pip install face_recognition
+
+### Speech Recognition
+pip install SpeechRecognition pyaudio
+
+### Train MNIST
+pip install tensorflow
